@@ -1,0 +1,65 @@
+# .gitignore for .NET 10 projects
+# See https://github.com/github/gitignore/blob/main/VisualStudio.gitignore for reference
+
+# Build results
+bin/
+obj/
+artifacts/
+publish/
+out/
+
+# VS Code and Visual Studio
+.vscode/
+.vs/
+
+# Rider/IDE
+.idea/
+*.sln.iml
+
+# NuGet packages
+.nuget/packages/
+packages/
+*.nupkg
+*.snupkg
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.DotSettings.user
+
+# Logs and databases
+*.log
+*.db
+*.db3
+*.mdf
+*.ldf
+
+# Test results
+TestResults/
+
+# Debug symbols
+*.pdb
+
+# Temporary files
+*.cache
+*.tmp
+
+# Publish output
+publish/
+
+# Entity Framework
+*.dbmdl
+
+# dotnet tool folders
+.dotnet/
+
+# macOS
+.DS_Store
+
+# Node
+node_modules/
+
+# Secrets
+secrets.json
